@@ -3,35 +3,44 @@
 <head>
    
     <title>form</title>
+    <style>
+        /* label {
+            color: rgb(25, 209, 209);
+            background-color: black;
+            font-size: 20px;
+        } */
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <form>
 <label for="number">phone</label>
 <input type="number" maxlength="10" name="number"  id="" placeholder="number">
-<br>
+
 <label for="name">enter your name</label>
 <input type="text" name="name" placeholder="username">
-<br>
+
 <label for="Email">Enter your email</label>
 <input type="email" name="Email" placeholder="email">
-<br>
 <label for="password">Enter your password</label>
 <input type="password" name="password" placeholder="password">
-<br>
+<input type="checkbox" name="save" id="">
+<label for="save">remember your password</label>
 <label for="date">Enter your date</label>
 <input type="date" name="date">
-<br>
 <label for="selectTrueorFalse">select option</label>
-<br>
 <select name="selectTrueorFalse" id="">
     <option value="None">None</option>
     <option value="True">True</option>
-<option value="False">False</option>
-
+    <option value="False">False</option>
 </select>
-<br>
-<br>
-<input type="submit">
+<input type="submit" style="color: blueviolet; background-color: black; padding: 10px;">
+
 
     </form>
 </body>
