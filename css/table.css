@@ -1,0 +1,25 @@
+
+#maintable{
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#maintable th{
+    color: blue;
+    border: 1px solid black;
+    text-align: center;
+
+}
+#title th{
+    border: 0px;
+    text-align: center;
+    color: brown;
+}
+#maintable tbody{
+    color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}

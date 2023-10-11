@@ -4,43 +4,8 @@
 <head>
     
     <title>homework</title>
-    <style>
-        form{
-            display: flex;
-            flex-direction: column;
-            width: 350px;
-            margin: auto;
-        }
-        label{
-            margin-top: 10px;
-        }
-        input{
-            margin-top: 10px;
-            padding: 5px;
-        }
-        button{
-            margin-top: 10px;
-            padding: 5px;
-        }
-        select{
-            margin-top: 10px;
-            padding: 5px;
-        }
-        table{
-            margin: auto;
-            border: 10px saddlebrown ;
-            border-collapse: collapse;
-        }
-        th{
-            border: 2px saddlebrown;
-            padding: 5px;
-
-        }
-        td{
-            border: 2px saddlebrown;
-            padding: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/homework.css">
+  
 </head>
 <body>
     <!-- form  -->
@@ -70,7 +35,8 @@
     </form>
     <br>
     <br>
-    <table>
+    <table id="tab1">
+        <thead>
         <tr>
             <th>Name:</th>
             <th>Password:</th>
@@ -78,6 +44,8 @@
             <th>Phone:</th>
             <th>Adress:</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
             <td>maram</td>
             <td>1234</td>
@@ -85,6 +53,7 @@
             <td>mnbmnb</td>
             <td>kjkll</td>
         </tr>
+    </tbody>
         <!-- <tr>
             <td></td>
             <td></td>
