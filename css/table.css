@@ -5,18 +5,23 @@
     border: 1px solid black;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
+#maintable caption{
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
 #maintable th{
     color: blue;
     border: 1px solid black;
     text-align: center;
 
 }
-#title>thead>tr>th{
-    text-align: center;
-    color: brown;
-}
+
 #maintable td{
     color: aquamarine;
     border: 1px solid black;
