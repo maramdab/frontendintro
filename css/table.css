@@ -13,12 +13,11 @@
     text-align: center;
 
 }
-#title th{
-    border: 0px;
+#title>thead>tr>th{
     text-align: center;
     color: brown;
 }
-#maintable tbody{
+#maintable td{
     color: aquamarine;
     border: 1px solid black;
     text-align: center;
