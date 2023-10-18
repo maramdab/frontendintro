@@ -1,3 +1,4 @@
+/* header or nav bar for all pages contain logo, title and 5 anchor tags to navigate between the pages*/
 #headerDiv{
   background-color: rgb(153, 146, 160);
   height: 100px;
@@ -34,4 +35,21 @@
   padding: 5px;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+/* footer styling */
+#footerDiv{
+  background-color: rgb(153, 146, 160);
+  height: 40px;
+  width: 100%;
+  position: fixed;
+   bottom: 0;
+   left: 0;
+}
+#footerDiv p{
+  color:#000;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: center;
 }

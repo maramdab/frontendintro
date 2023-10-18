@@ -39,6 +39,8 @@
     2.  use style tag (style)
 
     3. use CSS file.
+
+_________________ 
   ###### ID and Class properities  :
     -- homework 
        why id selector is applied in style even if class selector was after it in lines ?
@@ -49,6 +51,9 @@
 2. **Class Selector (`.class`) Specificity**: Class selectors are less specific compared to ID selectors. When both ID and class selectors target the same element, the ID selector's styles will take precedence.
 
 
+_______________
+##### 7. divide tag
+##### 8. navigation bar 
 
 
 
