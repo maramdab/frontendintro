@@ -55,6 +55,17 @@
     margin-top: 10px;
     text-align: center;
   }
+  #headerDiv nav{
+     
+    box-sizing: border-box;
+    
+
+   }
+   #headerDiv nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+   }
   @media only screen and (max-width: 1200px) {
     body {
       background-color: rgb(226, 23, 162);
@@ -68,16 +79,35 @@
     body {
       background-color: lightblue;
     }
-    #headerDive{
+    #headerDiv{
       padding: 10px;
     }
 }
 @media only screen and (max-width: 480px) {
-    body {
-      background-color: rgb(140, 134, 138);
+ 
+    #headerDiv h1{
+      width: 100%;
+      color: #000;
+      font-size: 36px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 120px;
+      margin-top: 20px;
+      margin-right: 200px;
+      float:initial;
+    
     }
-    #headerDive{
-    padding: 10px;
-    }
+    
+     #checkbox{
+      font-size: 30px;
+      color: #000;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+     }
+   
+  }
 
-}
+
+
+  
