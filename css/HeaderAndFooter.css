@@ -19,17 +19,16 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 200px;
     margin-top: 20px;
-    margin-right: 200px;
+    /* margin-right: 200px; */
     float: left;
   
   }
   
   #headerDiv a{
     color: #898181;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 15px;
     margin-top: 40px;
-    float: left;
     text-decoration: none;
     background-color: #000;
     padding: 5px;
@@ -37,6 +36,11 @@
     border-radius: 5px;
    
     
+  }
+  #linkDiv{
+    margin-right: 5%;
+    margin-top: 40px;
+    float: right;
   }
   
   /* footer styling */
@@ -55,25 +59,19 @@
     margin-top: 10px;
     text-align: center;
   }
-  #headerDiv nav{
-     
-    box-sizing: border-box;
-    
 
-   }
-   #headerDiv nav ul{
-    float: right;
-    list-style: none;
-    margin-right: 20px;
-   }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1020px) {
     body {
       background-color: rgb(226, 23, 162);
     }
-    #headerDive{
-     padding: 10px;
+    #headerDiv h1{
+     font-size: 40px;
+     margin-left: 30px;
     }
-    
+    #headerDiv a{
+      margin-left: 20px;
+      margin-top: 4%;
+    }
 }
 @media only screen and (max-width: 680px) {
     body {
@@ -85,7 +83,7 @@
 }
 @media only screen and (max-width: 480px) {
  
-    #headerDiv h1{
+    /* #headerDiv h1{
       width: 100%;
       color: #000;
       font-size: 36px;
@@ -95,16 +93,16 @@
       margin-right: 200px;
       float:initial;
     
-    }
+    } */
     
-     #checkbox{
+     /* #checkbox{
       font-size: 30px;
       color: #000;
       float: right;
       line-height: 80px;
       margin-right: 40px;
       cursor: pointer;
-     }
+     } */
    
   }
 
