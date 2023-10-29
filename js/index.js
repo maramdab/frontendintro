@@ -31,12 +31,34 @@
 
 var body=document.getElementsByTagName('body');
 console.log(body[0]);
-
+var navBar=document.getElementById('headerDiv');
+var headerH1=document.getElementById('h1Id');
 
 function changeBackground(){
-    if(body[0].style.backgroundColor=='lightgrey'){
-    body[0].style.backgroundColor='grey';}
+    if(body[0].style.backgroundColor=='black'){
+    body[0].style.backgroundColor='rgb(246, 245, 247)'}
     else{
-        body[0].style.backgroundColor='lightgrey'
+        body[0].style.backgroundColor='black'
+    }
+    if (navBar.style.backgroundColor== 'black' ){
+        navBar.style.backgroundColor='rgb(153, 146, 160)';
+        
+    }
+    else{
+        navBar.style.backgroundColor='black';
+       
+    }
+    if (headerH1.style.color== 'rgb(246, 245, 247)'){
+        headerH1.style.color='black'
+    }
+    else{
+        headerH1.style.color='rgb(246, 245, 247)'
+    }
+    if(navBar.style.border== 'solid rgb(246, 245, 247)'){
+        navBar.style.border=' solid black';
+
+    }
+    else{
+        navBar.style.border= 'solid rgb(246, 245, 247)';
     }
 }
