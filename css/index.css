@@ -11,6 +11,7 @@
     grid-gap: 10px;
     float:right;
     padding-bottom: 18px;
+    border: 5px solid burlywood;
 }
 
 .gridImg {

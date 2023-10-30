@@ -54,11 +54,5 @@ function changeBackground(){
     else{
         headerH1.style.color='rgb(246, 245, 247)'
     }
-    if(navBar.style.border== 'solid rgb(246, 245, 247)'){
-        navBar.style.border=' solid black';
-
-    }
-    else{
-        navBar.style.border= 'solid rgb(246, 245, 247)';
-    }
+   
 }
