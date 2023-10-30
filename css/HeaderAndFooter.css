@@ -105,6 +105,34 @@ body{
 
 
 }
+@media only screen and (max-width:715px){
+  #linkDiv{
+    margin-right: 1%;
+  }
+  #headerDiv a{
+    color: black;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: rgb(246, 245, 247);
+    padding: 5px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+   
+    
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+    margin-left: 10px;
+    float: right;
+  }
+  
+ 
+}
 /* mobile view */
 @media only screen and (max-width:600px){
   #linkDiv{
