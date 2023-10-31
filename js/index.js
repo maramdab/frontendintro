@@ -54,5 +54,5 @@ function changeBackground(){
     else{
         headerH1.style.color='rgb(246, 245, 247)'
     }
-   
+
 }
