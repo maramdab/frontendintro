@@ -33,6 +33,8 @@ var body=document.getElementsByTagName('body');
 console.log(body[0]);
 var navBar=document.getElementById('headerDiv');
 var headerH1=document.getElementById('h1Id');
+var footer=document.getElementById('footerDiv');
+var footerP=document.getElementById('footerP');
 
 function changeBackground(){
     if(body[0].style.backgroundColor=='black'){
@@ -49,10 +51,19 @@ function changeBackground(){
        
     }
     if (headerH1.style.color== 'rgb(246, 245, 247)'){
-        headerH1.style.color='black'
+        headerH1.style.color='black';
     }
     else{
-        headerH1.style.color='rgb(246, 245, 247)'
+        headerH1.style.color='rgb(246, 245, 247)';
     }
+  if (footer.style.backgroundColor=='black' && footerP.style.color=='rgb(246, 245, 247)'){
 
+    footer.style.backgroundColor='rgb(153, 146, 160)';
+    footerP.style.color='black';
+  }
+  else
+  {
+    footer.style.backgroundColor='black';
+    footerP.style.color='rgb(246, 245, 247)';
+  }
 }
