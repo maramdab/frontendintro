@@ -1,5 +1,5 @@
 var contactForm=document.getElementById('contactForm');
-var name=document.getElementById('name');
+var name1=document.getElementById('name');
 var email=document.getElementById('email')
 var subject = document.getElementById('subject');
 
@@ -8,8 +8,8 @@ e.preventDefault()
 Swal.fire({
     position: 'center',
     icon: 'success',
-    title: 'Your Name:'+ name.value+'  your email:'+email.value+'  your subject:'+subject.value,
-    showConfirmButton: false,
+    title: 'Your Name:'+ name1.value+'  your email:'+email.value+'  your subject:'+subject.value,
+    showConfirmButton: false ,
     timer: 6000
   })
 });

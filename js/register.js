@@ -1,0 +1,1 @@
+var regForm=document.getElementById('regForm');
