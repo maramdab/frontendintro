@@ -1,0 +1,12 @@
+#mainDiv{
+  margin-top: 180px;
+}
+#logForm{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 300px;
+  margin-left: 40%;
+  margin-top: 20px;
+}
